@@ -1,0 +1,6 @@
+[submodule "H7"]
+	path = H7
+	url = C:/Users/zuolan/Desktop/zuolan_signal_STM32
+[submodule "F4_FPGA"]
+	path = F4_FPGA
+	url = E:/competition/EE/Electronic/EE_OBJECT/zuolan_signal_fpga_stm32
