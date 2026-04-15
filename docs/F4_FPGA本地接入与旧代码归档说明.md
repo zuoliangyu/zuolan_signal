@@ -2,12 +2,12 @@
 
 ## 当前状态
 
-当前总控仓库中的 `F4_FPGA/` 以本地子模块方式接入：
+当前总控仓库中的 `F4_FPGA/` 已切换为 GitHub 子模块：
 
 - 子模块路径：`F4_FPGA/`
-- 当前本地 URL：`E:/competition/EE/Electronic/EE_OBJECT/zuolan_signal_fpga_stm32`
+- 当前远端 URL：`git@github.com:zuoliangyu/zuolan_signal_F4_FPGA.git`
 
-同时，`F4_FPGA/` 已同步你本地仓库的当前工作树，因此里面保留了源仓库当前的本地改动与未跟踪文件。
+当前发布版本中保留了旧代码压缩归档 `old_code.zip`。
 
 ## 旧代码归档
 
@@ -32,7 +32,7 @@
 
 因此当前 `F4_FPGA` 是可继续整理开发的状态，但还不是一个干净的正式子模块提交点。
 
-## 后续推荐流程
+## 历史处理流程
 
 ### 1. 在 `F4_FPGA/` 内完成本地整理
 

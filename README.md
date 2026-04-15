@@ -47,14 +47,11 @@ git submodule update --init --recursive
 ## 当前状态
 
 - 根仓库已建立总控骨架
-- `H7` 先以本地仓库方式接入
-- `.gitmodules` 当前记录的是本机本地路径 `C:/Users/zuolan/Desktop/zuolan_signal_STM32`
-- `H7` 当前已同步你本地工作树，包含尚未在该子仓库内提交的迁移改动
-- `F4_FPGA` 先以本地仓库方式接入
-- `.gitmodules` 当前记录的是本机本地路径 `E:/competition/EE/Electronic/EE_OBJECT/zuolan_signal_fpga_stm32`
-- `F4_FPGA` 当前已同步你本地工作树，并额外归档了旧代码压缩包 `F4_FPGA/old_code.zip`
-- 待 `H7` 推送到 GitHub 后，再把子模块 URL 切换为正式远程地址
-- 待 `F4_FPGA` 推送到 GitHub 后，再把子模块 URL 切换为正式远程地址
+- `H7` 已发布到 GitHub：`git@github.com:zuoliangyu/zuolan_signal_H7.git`
+- `F4_FPGA` 已发布到 GitHub：`git@github.com:zuoliangyu/zuolan_signal_F4_FPGA.git`
+- `.gitmodules` 已切换为 GitHub SSH URL
+- 根仓库远端为：`git@github.com:zuoliangyu/zuolan_signal.git`
+- `F4_FPGA` 保留了旧代码压缩归档 `old_code.zip`
 
 详细说明见：
 

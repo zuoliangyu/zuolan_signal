@@ -2,14 +2,14 @@
 
 ## 当前状态
 
-当前总控仓库中的 `H7/` 以本地子模块方式接入：
+当前总控仓库中的 `H7/` 已切换为 GitHub 子模块：
 
 - 子模块路径：`H7/`
-- 当前本地 URL：`C:/Users/zuolan/Desktop/zuolan_signal_STM32`
+- 当前远端 URL：`git@github.com:zuoliangyu/zuolan_signal_H7.git`
 
-同时，`H7/` 已同步你本地仓库的当前工作树，因此里面还带着尚未提交的迁移改动。
+当前状态对应的迁移与发布已经完成。
 
-## 为什么先这样做
+## 历史说明
 
 - 你当前 `H7` 仓库还没有推到 GitHub
 - 但总控仓库结构已经需要先落下来
